@@ -11,7 +11,7 @@ function preload() {
   // // Hallway_1(people chatting in another room, voices).wav by o_ciz https://freesound.org/people/o_ciz/sounds/475647/ This work is licensed under the Creative Commons 0 License.
   muffledParty = loadSound('assets/183893__ryanconway__underwater-breathing.mp3');
   // Muffled breath by the hands.wav by fuchsrodolfo https://freesound.org/people/fuchsrodolfo/sounds/391174/ This work is licensed under the Attribution Noncommercial License. https://creativecommons.org/licenses/by-nc/3.0/
-  breathing = loadSound('assets/391174__fuchsrodolfo__muffled-breath-by-the-hands.wav')
+  // breathing = loadSound('assets/391174__fuchsrodolfo__muffled-breath-by-the-hands.wav')
   // // chainedcreature2.mp3 by johnaudiotech https://freesound.org/people/johnaudiotech/sounds/342117/ This work is licensed under the Creative Commons 0 License.
   creature = loadSound('assets/342117__johnaudiotech__chainedcreature2.mp3')
 }
@@ -50,11 +50,13 @@ function keyTyped() {
     muffledParty.loop();
   } else if (key == "e") {
     muffledParty.pause();
-  } else if (key == "f") {
-    breathing.loop();
-  } else if (key == "r") {
-    breathing.pause();
-  } else if (key == "g") {
+  }
+  /* else if (key == "f") {
+     breathing.loop();
+   } else if (key == "r") {
+     breathing.pause();
+   } */
+  else if (key == "g") {
     creature.loop();
   } else if (key == "t") {
     creature.pause();
