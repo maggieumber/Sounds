@@ -38,28 +38,28 @@ function draw() {
 }
 
 
-function keyTyped() {
-  if (key == "a") {
-    rain.loop();
-  } else if (key == "q") {
-    rain.pause();
-  }
-  /* else if (key == "s") {
-     drukenParty.loop();
-   } else if (key == "w") {
-     drukenParty.pause();
-   } else if (key == "d") {
-     muffledParty.loop();
-   } else if (key == "e") {
-     muffledParty.pause();
-   } else if (key == "f") {
-      breathing.loop();
-    } else if (key == "r") {
-      breathing.pause();
-    }
-   else if (key == "g") {
-     creature.loop();
-   } else if (key == "t") {
-     creature.pause();
-   } */
-}
+// function keyTyped() {
+//   if (key == "a") {
+//     rain.play();
+//   } else if (key == "q") {
+//     rain.pause();
+//   }
+//   /* else if (key == "s") {
+//      drukenParty.loop();
+//    } else if (key == "w") {
+//      drukenParty.pause();
+//    } else if (key == "d") {
+//      muffledParty.loop();
+//    } else if (key == "e") {
+//      muffledParty.pause();
+//    } else if (key == "f") {
+//       breathing.loop();
+//     } else if (key == "r") {
+//       breathing.pause();
+//     }
+//    else if (key == "g") {
+//      creature.loop();
+//    } else if (key == "t") {
+//      creature.pause();
+//    } */
+// }
