@@ -1,5 +1,5 @@
 let titleImage;
-let rain
+let rain;
 // , drukenParty, muffledParty, breathing, creature;
 
 function preload() {
